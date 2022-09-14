@@ -1,0 +1,68 @@
+
+
+body{
+    background-color: #F5F5F5;
+}
+
+
+div{
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: white;
+}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1 {
+    font-family: 'Merriweather', serif;
+}
+
+h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 991px){
+    .container {
+        width: 80%;
+        margin: 3%;
+    }
+
+    img{
+        width: 90%;
+        height: 900%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        width: 80%;
+        margin: 10%;
+    }
+
+    img{
+        width: 80%;
+        height: 80%;
+    }
+}
