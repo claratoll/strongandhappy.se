@@ -1,68 +1,131 @@
-
-
-body{
-    background-color: #F5F5F5;
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-
-div{
-    font-family: 'Merriweather Sans', sans-serif;
-    background-color: white;
+body {
+  background-color: #f5f5f5;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+  color: #525f7f;
 }
 
+div {
+  background-color: white;
+}
 
 .container {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
-img{
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  border-style: none;
 }
 
-
-h1 {
-    font-family: 'Merriweather', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
-h2{
-    font-family: 'Merriweather Sans', sans-serif;
-    text-align: center;
+h2 {
+  text-align: center;
+  margin-top: 2rem;
 }
 
-p{
-    font-family: 'Merriweather Sans', sans-serif;
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-
-
-
-
-@media (min-width: 600px) and (max-width: 991px){
-    .container {
-        width: 80%;
-        margin: 3%;
-    }
-
-    img{
-        width: 90%;
-        height: 900%;
-    }
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
+ul ul {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #5e72e4;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #233dd2;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
 
 @media (min-width: 992px) {
-    .container {
-        width: 80%;
-        margin: 10%;
-    }
+  .container {
+    max-width: 960px;
+  }
+}
 
-    img{
-        width: 80%;
-        height: 80%;
-    }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Apply CSS to style the layout */
+#exercise {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  justify-content: space-between;
+  height: 500px;
+}
+
+#image {
+  flex: 1; /* Allow image to grow and take available space */
+  padding-right: 20px; /* Add spacing between image and text */
+}
+/* Apply styles to img elements within #image */
+#image img {
+  max-height: 400px; /* Set a maximum height for the image */
+  width: auto;
+}
+
+/* Adjust styles as needed for your design */
+#reps,
+#rounds {
+  margin: 30px; /* Remove default margin for <p> elements */
 }

@@ -1,84 +1,107 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
+  <head>
     <title>strongandhappy.se</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
-    <script src="assets/js/index.js" type="module"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,600;1,300&family=Merriweather:wght@300&display=swap"
-        rel="stylesheet">
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
+      <header>
+        <img src="/assets/img/Strongandhappy.png" alt="strongandhappy logga" />
 
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="#">Sommarutmaningen</a></li>
+        </ul>
+      </header>
 
-        <header>
-            <img src="/assets/img/Strongandhappy.png" alt="strongandhappy logga">
-            <h2>Sommarutmaningen 2022</h2>
-        </header>
+      <main>
+        <h2>Sommarutmaningen 2022</h2>
+        <div class="pass" id="2022-4-15">
+          <h2>Dagens pass</h2>
+          <iframe
+            width="709"
+            height="399"
+            src="https://www.youtube.com/embed/-LBIGnflCzA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <br />
+          <form action="##">
+            <label for="markdone">Klar med passet</label>
+            <input type="checkbox" id="markdone" name="markdone" checked />
+            <br /><br />
+            <label for="kommentar">Kommentar om passet:</label>
+            <textarea
+              id="kommentar"
+              name="kommentar"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </form>
+        </div>
 
+        <div class="pass" id="2022-3-31">
+          <h2>2 juli</h2>
+          <iframe
+            width="709"
+            height="399"
+            src="https://www.youtube.com/embed/XLdRBXDjYJc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <br />
+          <form action="##">
+            <label for="markdone">Klar med passet</label>
+            <input type="checkbox" id="markdone" name="markdone" checked />
+            <br /><br />
+            <label for="kommentar">Kommentar om passet:</label>
+            <textarea
+              id="kommentar"
+              name="kommentar"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </form>
+        </div>
 
-        <main>
-            <div class="pass" id="2022-4-15">
-                <h2>Dagens pass</h2>
-                <iframe width="709" height="399" src="https://www.youtube.com/embed/-LBIGnflCzA"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <br>
-                <form action="##">
-                    <label for="markdone">Klar med passet</label>
-                    <input type="checkbox" id="markdone" name="markdone" checked>
-                    <br><br>
-                    <label for="kommentar">Kommentar om passet:</label>
-                    <textarea id="kommentar" name="kommentar" rows="4" cols="50"></textarea>
-                </form>
-            </div>
+        <div class="pass" id="pass">
+          <h2>1 juli</h2>
+          <iframe
+            width="709"
+            height="399"
+            src="https://www.youtube.com/embed/Moxrz1oJnv8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <br />
+          <form action="##">
+            <label for="markdone">Klar med passet</label>
+            <input type="checkbox" id="markdone" name="markdone" checked />
+            <br /><br />
+            <label for="kommentar">Kommentar om passet:</label>
+            <textarea
+              id="kommentar"
+              name="kommentar"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </form>
+        </div>
+      </main>
 
-            <div class="pass" id="2022-3-31">
-                <h2>2 juli</h2>
-                <iframe width="709" height="399" src="https://www.youtube.com/embed/XLdRBXDjYJc"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <br>
-                <form action="##">
-                    <label for="markdone">Klar med passet</label>
-                    <input type="checkbox" id="markdone" name="markdone" checked>
-                    <br><br>
-                    <label for="kommentar">Kommentar om passet:</label>
-                    <textarea id="kommentar" name="kommentar" rows="4" cols="50"></textarea>
-                </form>
-            </div>
-
-
-            <div class="pass" id="pass">
-                <h2>1 juli</h2>
-                <iframe width="709" height="399" src="https://www.youtube.com/embed/Moxrz1oJnv8"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <br>
-                <form action="##">
-                    <label for="markdone">Klar med passet</label>
-                    <input type="checkbox" id="markdone" name="markdone" checked>
-                    <br><br>
-                    <label for="kommentar">Kommentar om passet:</label>
-                    <textarea id="kommentar" name="kommentar" rows="4" cols="50"></textarea>
-                </form>
-            </div>
-
-        </main>
-
-        <footer>
-
-        </footer>
+      <footer></footer>
     </div>
-</body>
-
+    <script src="assets/js/index.js" type="module"></script>
+  </body>
 </html>

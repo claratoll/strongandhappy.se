@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
+  <head>
     <title>strongandhappy.se</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
     <script src="assets/js/index.js" type="module"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,600;1,300&family=Merriweather:wght@300&display=swap" rel="stylesheet">
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
+      <header>
+        <img src="/assets/img/Strongandhappy.png" alt="strongandhappy logga" />
 
+        <ul>
+          <li><a href="#">Hem</a></li>
+          <li><a href="sommarutmaningen.html">Sommarutmaningen</a></li>
+        </ul>
+      </header>
 
-        <header>
-            <img src="/assets/img/Strongandhappy.png" alt="strongandhappy logga">
-        </header>
+      <main>
+        <h2>Next exercise</h2>
+        <input type="text" id="search_text" />
+        <button id="search_button">search</button>
+        <h2>Exercise</h2>
+        <div id="exercise">
+          <div id="image"></div>
+          <p id="reps">10 repetitions</p>
+          <p id="rounds">2 rounds</p>
+        </div>
+      </main>
 
-
-        <main>
-          
-        </main>
-
-        <footer>
-
-        </footer>
+      <footer></footer>
     </div>
-</body>
-
+  </body>
 </html>
